@@ -40,7 +40,7 @@ pytorch/visdom
 （4）配置config文件进行参数的配置，并保存；<br>
 （5）运行train.py进行训练；<br>
 - 4）训练过程：<br>
-<img src="https://github.com/MLjian/TextClassificationImplement/blob/master/dl/n_pad/实验数据/loss.png" width = "467" height = "300" div align=center />
-<img src="https://github.com/MLjian/TextClassificationImplement/blob/master/dl/n_pad/实验数据/acc.png" width = "467" height = "300" div align=center />
+<div align=center><img width="150" height="150" src="https://github.com/MLjian/TextClassificationImplement/blob/master/dl/n_pad/实验数据/loss.png"/></div>
+<div align=center><img width="150" height="150" src="https://github.com/MLjian/TextClassificationImplement/blob/master/dl/n_pad/实验数据/acc.png"/></div>
 
 
