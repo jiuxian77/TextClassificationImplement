@@ -30,7 +30,7 @@ article的使用：将article进行和word_seg一样的特征抽取，然后合�
 # 3 dl（深度学习）
 - 1）运行环境
 pytorch/visdom
-- 2）文件夹说明
+- 2）文件夹说明<br>
 [n_pad]：不对句子进行截断或补零。<br>
 [pad]：对句子进行截断或补零，以保证输入神经网络里的每条句子长度一样。<br>
   [data]:用于存放原始数据集和处理后的数据集。([数据集下载链接](https://pan.baidu.com/s/17UjEEcB2taT_HvU1FC1bCQ))<br>
