@@ -1,7 +1,7 @@
 # 1 简介
 ['达观杯'文本智能处理挑战赛官网](http://www.dcjingsai.com/common/cmpt/“达观杯”文本智能处理挑战赛_竞赛信息.html)<br>
 &#8195;该库用于'达观杯'比赛的文本分类任务的基础实现，主要包括机器学习(ml)和深度学习(dl)两大部分，机器学习部分基于sklearn/lightgbm包实现，深度学习部使用pytorch深度学习框架。其中，机器学习部分主要包含特征工程和分类器两大部分，特征工程部分主要针对文本分类任务的 hash/lsa/lda/doc2vec特征提取/特征选择/特征组合/特征构造进行了实现，而分类器部分主要有逻辑回归/SVM/随机森林/Bagging/Adaboost/GBDT/Xgboost/LightGBM等。深度学习主要实现了word2vec/构建lstm模型/训练可视化等。（注：此库只是基础实现，并不是最优！！！）<br>
-# 2 ml
+# 2 ml（机器学习）
 - 1）运行环境<br>
 sklearn/xgboost/lightgbm<br>
 - 2）文件夹说明<br>
@@ -9,6 +9,7 @@ sklearn/xgboost/lightgbm<br>
 [features]:用于存放特征工程的代码以及生成的特征文件。<br>
 [code]:用于存放训练的代码。<br>
 [results]:用于存放测试集的训练结果，以便提交给比赛官方。<br>
+[beginner]：用较为简单的代码格式帮助代码熟练度不够的同学入门，涉及自动调参。(选看)<br>
 - 3）使用案例：<br>
 （1）生成tfidf特征<br>
 直接运行features文件夹中的**tfidf.py**;<br>
@@ -26,7 +27,7 @@ sklearn/xgboost/lightgbm<br>
 article的使用：将article进行和word_seg一样的特征抽取，然后合并到word_seg特征中；<br>
 （2）模型集成：<br>
 多个单模型进行融合，就是将各个模型结果进行投票；<br>
-# 3 dl
+# 3 dl（深度学习）
 - 1）运行环境
 pytorch/visdom
 - 2）文件夹说明
