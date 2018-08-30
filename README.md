@@ -9,7 +9,7 @@ sklearn/xgboost/lightgbm<br>
 [features]:用于存放特征工程的代码以及生成的特征文件。<br>
 [code]:用于存放训练的代码。<br>
 [results]:用于存放测试集的训练结果，以便提交给比赛官方。<br>
-[beginner]：用较为简单的代码格式帮助代码熟练度不够的同学入门，涉及自动调参。(选看)<br>
+[for beginner]：用较为简单的代码格式帮助代码熟练度不够的同学入门，涉及自动调参。(选看)<br>
 - 3）使用案例：<br>
 （1）生成tfidf特征<br>
 直接运行features文件夹中的**tfidf.py**;<br>
