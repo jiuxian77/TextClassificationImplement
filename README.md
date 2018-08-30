@@ -27,6 +27,8 @@ sklearn/xgboost/lightgbm<br>
 article的使用：将article进行和word_seg一样的特征抽取，然后合并到word_seg特征中；<br>
 （2）集成学习：<br>
 多个好而不同的单模型进行融合，就是将各个模型结果进行投票；<br>
+- 5）比赛新baseline<br>
+用ensemble_spar.py形成的特征 + LinearSVC --> 0.778多(只是简单随便跑的，还未进行调优)<br>
 # 3 dl（深度学习）
 - 1）运行环境<br>
 pytorch/visdom
