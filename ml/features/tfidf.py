@@ -24,7 +24,7 @@ y_train = (df_train['class'] - 1).values
 2 特征工程
 
 """
-vectorizer = TfidfVectorizer(ngram_range=(1, 2), min_df=3, max_df=0.9)
+vectorizer = TfidfVectorizer(ngram_range=(1, 2), min_df=3, max_df=0.9, sublinear_tf=True)
 vectorizer.fit(df_all['word_seg'])
 x_train = vectorizer.transform(df_train['word_seg'])
 x_test = vectorizer.transform(df_test['word_seg'])
