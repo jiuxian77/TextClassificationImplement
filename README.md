@@ -23,8 +23,8 @@ sklearn/xgboost/lightgbm<br>
 修改code文件夹中的**lgb.py**中的*features_path*，然后直接运行**lgb.py**即可开始训练。<br>
 - 4）**提高模型分数关键**<br>
 （1）特征工程：<br>
-做更多更好的特征，然后进行融合，形成新的特征，正常来讲没增加一些有用的特征，模型就会提升一些；<br>
-article的使用：将article进行和word_seg一样的特征抽取，然后合并到word_seg特征中；<br>
+做更多更好的特征，然后进行融合，形成新的特征，正常来讲每增加一些有用的特征，模型就会提升一些；<br>
+对于article的使用，将article进行和word_seg一样的特征抽取，然后合并到word_seg特征中；<br>
 （2）集成学习：<br>
 多个好而不同的单模型进行融合，就是将各个模型结果进行投票；<br>
 - 5）**比赛新baseline**<br>
